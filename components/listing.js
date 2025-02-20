@@ -42,6 +42,7 @@ const WorkshopCard = ({ slug, name, description, img, section }) => (
               src={`/content/workshops/${slug}/img/demo.png`}
               width={512}
               height={256}
+              unoptimized
             />
           )}
         </Box>
